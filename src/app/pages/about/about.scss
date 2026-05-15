@@ -1,0 +1,404 @@
+/* HERO SECTION */
+.about-hero {
+  height: 80vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('/assets/about/2.jpg') center/cover no-repeat;
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #fff;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-text {
+  max-width: 750px;
+
+  .hero-tag {
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+
+  h1 {
+    font-size: 70px;
+    line-height: 1.1;
+    font-weight: 800;
+    margin-bottom: 25px;
+
+    span {
+      color: var(--accent);
+    }
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #ddd;
+  }
+}
+
+/* COMPANY SECTION */
+.company-section {
+  background: #fff;
+}
+
+.company-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 80px;
+  align-items: center;
+}
+
+.company-image img {
+  border-radius: 25px;
+  width: 100%;
+}
+
+.section-tag {
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.company-content {
+
+  h2 {
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    line-height: 1.2;
+  }
+
+  p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+}
+
+.company-points {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+
+.point {
+  background: #f8f9fa;
+  padding: 18px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+/* MISSION SECTION */
+.mission-section {
+  background: #f8f9fa;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 40px;
+}
+
+.mission-card {
+  background: #fff;
+  padding: 50px;
+  border-radius: 25px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+
+  h3 {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: #666;
+    line-height: 1.8;
+  }
+}
+
+/* WHY SECTION */
+.why-section {
+  background: #fff;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 70px;
+
+  h2 {
+    font-size: 52px;
+    font-weight: 800;
+    margin-top: 15px;
+  }
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}
+
+.why-card {
+  background: #f8f9fa;
+  padding: 40px 30px;
+  border-radius: 20px;
+  transition: 0.4s;
+
+  &:hover {
+    transform: translateY(-10px);
+    background: var(--primary);
+
+    h3,
+    p {
+      color: #fff;
+    }
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    transition: 0.4s;
+  }
+
+  p {
+    color: #666;
+    line-height: 1.7;
+    transition: 0.4s;
+  }
+}
+
+/* INFRASTRUCTURE */
+.infrastructure-section {
+  background: #f8f9fa;
+}
+
+.infrastructure-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 80px;
+  align-items: center;
+}
+
+.infrastructure-content {
+
+  h2 {
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 25px;
+  }
+
+  p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 25px;
+  }
+
+  ul {
+
+    li {
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+  }
+}
+
+.infrastructure-image img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+/* INDUSTRIES */
+.industries-section {
+  background: #fff;
+}
+
+.industries-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+
+.industry-card {
+  background: #f8f9fa;
+  padding: 35px;
+  border-radius: 18px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.4s;
+
+  &:hover {
+    background: var(--accent);
+    color: #fff;
+    transform: translateY(-8px);
+  }
+}
+
+/* PROCESS */
+.process-section {
+  background: #f8f9fa;
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}
+
+.process-card {
+  background: #fff;
+  padding: 50px 30px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+
+  span {
+    width: 80px;
+    height: 80px;
+    background: var(--accent);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+/* CTA */
+.cta-section {
+  background:
+    linear-gradient(rgba(13,27,42,0.92), rgba(13,27,42,0.92)),
+    url('/images/cta.jpg') center/cover no-repeat;
+
+  text-align: center;
+  color: #fff;
+}
+
+.cta-content {
+
+  h2 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+
+  p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+    margin-bottom: 35px;
+    color: #ddd;
+  }
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 15px 35px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+.primary-btn {
+  background: var(--accent);
+  color: #fff;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+
+  &:hover {
+    background: #fff;
+    color: #111;
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+
+  .company-grid,
+  .mission-grid,
+  .why-grid,
+  .infrastructure-grid,
+  .industries-grid,
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text h1,
+  .company-content h2,
+  .section-header h2,
+  .infrastructure-content h2,
+  .cta-content h2 {
+    font-size: 42px;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .cta-buttons {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+
+  section {
+    padding: 70px 0;
+  }
+
+  .hero-text h1,
+  .company-content h2,
+  .section-header h2,
+  .infrastructure-content h2,
+  .cta-content h2 {
+    font-size: 32px;
+  }
+
+  .company-points {
+    grid-template-columns: 1fr;
+  }
+
+  .mission-card,
+  .why-card,
+  .process-card {
+    padding: 35px 25px;
+  }
+}

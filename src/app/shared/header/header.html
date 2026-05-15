@@ -1,0 +1,117 @@
+<header class="header" [class.scrolled]="isScrolled">
+
+  <div class="container-custom">
+
+    <div class="topbar">
+
+      <!-- LEFT -->
+      <div class="topbar-left">
+
+        <a href="#">
+          <ion-icon name="call-outline"></ion-icon>
+          +91 9876543210
+        </a>
+
+        <a href="#">
+          <ion-icon name="mail-outline"></ion-icon>
+          info@millenniumfabricon.com
+        </a>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="topbar-right">
+
+        <a href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+
+        <a href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+
+        <a href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- MAIN NAVBAR -->
+    <div class="navbar-wrapper">
+
+      <!-- LOGO -->
+      <a routerLink="/" class="logo">
+
+        <div class="logo-icon">
+          <ion-icon name="business-outline"></ion-icon>
+        </div>
+
+        <div class="logo-text">
+
+          <h2>MILLENNIUM<span>FABRICON</span></h2>
+
+          <p>PEB & Fabrication</p>
+
+        </div>
+
+      </a>
+
+      <!-- NAVIGATION -->
+      <nav class="nav-menu" [class.active]="mobileMenu">
+
+        <a
+          routerLink="/"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }">
+          Home
+        </a>
+
+        <a
+          routerLink="/about"
+          routerLinkActive="active">
+          About
+        </a>
+
+        <a
+          routerLink="/services"
+          routerLinkActive="active">
+          Services
+        </a>
+
+        <a
+          routerLink="/projects"
+          routerLinkActive="active">
+          Projects
+        </a>
+
+        <a
+          routerLink="/contact"
+          routerLinkActive="active">
+          Contact
+        </a>
+
+        <button class="quote-btn" routerLink="/contact">
+          Get Quote
+        </button>
+
+      </nav>
+
+      <!-- MOBILE TOGGLE -->
+      <div
+        class="menu-toggle"
+        [class.active]="mobileMenu"
+        (click)="toggleMenu()">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</header>
