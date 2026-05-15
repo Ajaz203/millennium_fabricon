@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "y",
+   "public": "dist/steel-fabrication-website/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
