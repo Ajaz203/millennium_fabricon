@@ -23,12 +23,13 @@
     color: var(--accent);
     font-weight: 700;
     letter-spacing: 2px;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
+    margin-top: 20px;
     display: inline-block;
   }
 
   h1 {
-    font-size: 70px;
+    font-size: 50px;
     line-height: 1.1;
     font-weight: 800;
     margin-bottom: 25px;
@@ -73,7 +74,7 @@
 .company-content {
 
   h2 {
-    font-size: 52px;
+    font-size: 39px !important;
     font-weight: 800;
     margin-bottom: 25px;
     line-height: 1.2;
@@ -139,7 +140,7 @@
   margin-bottom: 70px;
 
   h2 {
-    font-size: 52px;
+    font-size: 39px !important;
     font-weight: 800;
     margin-top: 15px;
   }
@@ -196,7 +197,7 @@
 .infrastructure-content {
 
   h2 {
-    font-size: 52px;
+    font-size: 39px !important;
     font-weight: 800;
     margin-bottom: 25px;
   }
@@ -300,7 +301,7 @@
 .cta-content {
 
   h2 {
-    font-size: 60px;
+    font-size: 39px !important;
     font-weight: 800;
     margin-bottom: 20px;
   }

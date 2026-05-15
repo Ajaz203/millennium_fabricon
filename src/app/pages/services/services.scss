@@ -17,12 +17,13 @@
     color: var(--accent);
     font-weight: 700;
     letter-spacing: 2px;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
+    margin-top: 75px;
     display: inline-block;
   }
 
   h1 {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 800;
     line-height: 1.1;
     margin-bottom: 25px;
@@ -67,7 +68,7 @@
 .intro-content {
 
   h2 {
-    font-size: 52px;
+    font-size: 39px !important;
     font-weight: 800;
     margin-bottom: 25px;
     line-height: 1.2;
@@ -86,7 +87,7 @@
   margin-bottom: 70px;
 
   h2 {
-    font-size: 52px;
+    font-size: 39px !important;
     font-weight: 800;
     margin-top: 15px;
   }
@@ -125,7 +126,7 @@
   padding: 35px;
 
   h3 {
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 15px;
   }
@@ -206,7 +207,7 @@
 .cta-content {
 
   h2 {
-    font-size: 60px;
+    font-size: 39px !important;
     font-weight: 800;
     margin-bottom: 20px;
   }
